@@ -1,6 +1,9 @@
-
 body {
 	background: url("levi-price-35655.jpg") no-repeat center center fixed;
+	background-size: cover;
+1\	background-position:50% 50%;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 .thumbnail {
@@ -23,5 +26,5 @@ body {
 
 .carousel-caption {
 	position: absolute;
-   	top:275px
+   	top:225px;
 }
