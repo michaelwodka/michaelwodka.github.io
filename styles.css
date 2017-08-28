@@ -1,0 +1,19 @@
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    margin:0;
+    padding:0;
+}
+
+.header1{
+	font-family: 'Rubick', sans-serif;
+}
+
+.header2{
+	font-family: 'Rubick', sans-serif;
+
+}
+
+.carousel-caption{
+  vertical-align:top;
+}
