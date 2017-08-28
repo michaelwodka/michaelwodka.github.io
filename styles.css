@@ -7,13 +7,16 @@
 
 .header1{
 	font-family: 'Rubick', sans-serif;
+	font-size: 64px;
 }
 
 .header2{
 	font-family: 'Rubick', sans-serif;
+	font-size: 32px;
 
 }
 
-.carousel-caption{
-  vertical-align:top;
+.carousel-caption {
+	position: absolute;
+   	top:275px
 }
