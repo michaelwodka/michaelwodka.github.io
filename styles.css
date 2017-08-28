@@ -1,31 +1,44 @@
-body {
-	background-color: #000000;
-	background: url("levi-price-35655.jpg") no-repeat center center fixed;
-	background-size: cover;
-	background-position:50% 50%;
+body{
+	background-color: black;
 	overflow-y: scroll;
 	overflow-x: hidden;
+	font-family: 'Rubick', sans-serif
 }
 
-.thumbnail {
-    border: 0 none;
-    box-shadow: none;
-    margin:0;
-    padding:0;
+.navbar{
+	background-color: black;
+}
+
+section{
+ 	width: 100%;
+ 	padding: 0;
+ 	display: table;
+ 	margin: 0;
+ 	max-width: none;
+  	height: 100vh;
+}
+
+.content{
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
 }
 
 .header1{
-	font-family: 'Rubick', sans-serif;
 	font-size: 64px;
 }
 
 .header2{
-	font-family: 'Rubick', sans-serif;
 	font-size: 32px;
-
 }
 
-.carousel-caption {
-	position: absolute;
-   	top:225px;
+.intro{
+	background: url("levi-price-35655.jpg") no-repeat center center fixed;
+	background-size: cover;
+  	text-align: center;
+}
+
+.second{
+	background-color: black;
+  	text-align: center;
 }
