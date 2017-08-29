@@ -31,7 +31,6 @@ section{
 }
 
 .content{
-	display: table-cell;
 	vertical-align: middle;
 	color: white;
 }
@@ -61,13 +60,14 @@ h3{
   	text-align: center;
 }
 
-.second{
+.aboutme{
 	background-color: black;
-  	text-align: center;
+  	text-align: left;
+  	font-size:22px;
 }
 
 .row{
-	margin-top: 100px;
+	margin-top: 75px;
 }
 
 .thumbnail{
@@ -90,4 +90,14 @@ h3{
 	width:  300px;
     height: 300px;
     border-radius: 50%;
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.heading{
+	margin-top: 0;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding-bottom: 30px;
 }
