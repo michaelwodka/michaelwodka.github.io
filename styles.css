@@ -9,6 +9,18 @@ body{
 	background-color: black;
 }
 
+.navbar-inverse .navbar-brand{
+	color: white;
+	font-family: 'Rubick', sans-serif;
+	font-weight: 900;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+	font-family: 'Rubick', sans-serif;
+	font-weight: 900;
+}
+
 section{
  	width: 100%;
  	padding: 0;
@@ -26,10 +38,12 @@ section{
 
 .header1{
 	font-size: 64px;
+	font-weight: 800;
 }
 
 .header2{
 	font-size: 32px;
+	font-weight: 800;
 }
 
 .intro{
@@ -42,3 +56,4 @@ section{
 	background-color: black;
   	text-align: center;
 }
+
