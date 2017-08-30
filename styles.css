@@ -169,3 +169,9 @@ div.caption{
   	height: 100vh;
 
 }
+
+@media (max-width:640px) {
+  .contact {
+    background-attachment:initial;
+  }
+}
