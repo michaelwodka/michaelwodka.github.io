@@ -146,6 +146,12 @@ div.caption{
 	color:black;
 }
 
+@media (max-width:640px) {
+  .skills {
+    background-attachment:initial;
+  }
+}
+
 .portfolio{
 	background-color: black;
   	text-align: left;
@@ -163,4 +169,3 @@ div.caption{
   	height: 100vh;
 
 }
-
