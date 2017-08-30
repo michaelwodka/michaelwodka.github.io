@@ -56,9 +56,6 @@ h3{
 .intro{
 	background: url("levi-price-35655.jpg") no-repeat center center;
 	background-size: cover;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 	background-position:50% 50%;
     background-attachment: fixed;
   	text-align: center;
@@ -66,9 +63,6 @@ h3{
 
 @media (max-width:640px) {
   .intro {
-  	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-attachment:initial;
   }
 }
@@ -173,7 +167,7 @@ div.caption{
 
 }
 
-@media (max-width:640px) {
+@media (max-width:640px) and (orientation : landscape) {
   .contact {
     background-attachment:initial;
   }
