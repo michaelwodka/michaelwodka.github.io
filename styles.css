@@ -56,6 +56,9 @@ h3{
 .intro{
 	background: url("levi-price-35655.jpg") no-repeat center center;
 	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	background-position:50% 50%;
     background-attachment: fixed;
   	text-align: center;
@@ -63,6 +66,9 @@ h3{
 
 @media (max-width:640px) {
   .intro {
+  	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-attachment:initial;
   }
 }
@@ -139,7 +145,6 @@ div.caption{
     background-attachment: fixed;
   	text-align: left;
   	font-size:18px;
-  	height: 100vh;
 }
 
 .skills .content{
@@ -156,7 +161,6 @@ div.caption{
 	background-color: black;
   	text-align: left;
   	font-size:18px;
-  	height: 100vh;
 }
 
 .contact{
