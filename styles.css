@@ -145,6 +145,20 @@ div.caption{
 	color:black;
 }
 
+.outerbox {
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    line-height:110px;
+    color: black;
+    border-radius: 30%;
+    margin-top: 30px;
+    margin-left: 0px;
+    border: 4px black solid;
+    background: #cccccc;
+    box-shadow: 10px 10px 5px #888888;
+  }
+
 @media (max-width:640px) {
   .skills {
     background-attachment:initial;
@@ -171,4 +185,9 @@ div.caption{
   .contact {
     background-attachment:initial;
   }
+}
+
+.nopadding{
+	padding:0;
+	margin: 0;
 }
