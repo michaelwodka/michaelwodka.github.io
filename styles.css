@@ -164,7 +164,7 @@ div.caption{
     background-attachment: fixed;
   	text-align: left;
   	font-size:18px;
-
+    -webkit-background-size: 2650px 1440px;
 }
 
 @media (max-width:640px) {
