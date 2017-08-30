@@ -167,7 +167,7 @@ div.caption{
 
 }
 
-@media (max-width:640px) and (orientation : landscape) {
+@media (max-width:640px) {
   .contact {
     background-attachment:initial;
   }
