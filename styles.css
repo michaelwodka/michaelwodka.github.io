@@ -144,6 +144,12 @@ div.caption{
   	font-size:18px;
 }
 
+@media (max-width:640px) {
+  .skills {
+    background-attachment:initial;
+  }
+}
+
 .skills .content{
 	color:black;
 }
@@ -162,12 +168,6 @@ div.caption{
     box-shadow: 10px 10px 5px #888888;
   }
 
-@media (max-width:640px) {
-  .skills {
-    background-attachment:initial;
-  }
-}
-
 .portfolio{
 	background-color: black;
   	text-align: left;
@@ -183,13 +183,11 @@ div.caption{
   	font-size:18px;
 }
 
-
 @media (max-width:640px) {
   .contact {
     background-attachment:initial;
   }
 }
-
 
 .nopadding{
 	padding:0;
@@ -213,7 +211,6 @@ div.caption{
 
 .form-group.row.first{
 	margin-top: 0px;
-
 }
 
 #contactp{
