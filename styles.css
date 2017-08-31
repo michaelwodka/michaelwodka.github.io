@@ -53,21 +53,6 @@ h3{
 	font-weight: 800;
 }
 
-.intro{
-	background: url("levi-price-35655.jpg") no-repeat center center;
-	background-size: cover;
-	background-position:50% 50%;
-    background-attachment: fixed;
-  	text-align: center;
-}
-
-
-@media (max-width:100px) {
-  .intro {
-    background-attachment:initial;
-  }
-}
-
 .aboutme{
 	background-color: black;
   	text-align: left;
@@ -94,6 +79,21 @@ h3{
     background-repeat: no-repeat;
     background-size: cover;
     margin-top:30px;
+}
+
+.intro{
+	background: url("levi-price-35655.jpg") no-repeat center center;
+	background-size: cover;
+	background-position:50% 50%;
+	background-attachment: fixed;
+  	text-align: center;
+}
+
+
+@media (max-width:100px) {
+  .intro {
+    background-attachment:initial;
+  }
 }
 
 #ProfilePic{
