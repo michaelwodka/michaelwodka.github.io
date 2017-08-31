@@ -31,7 +31,6 @@ section{
 
 }
 
-
 .content{
 	vertical-align: middle;
 	color: white;
@@ -62,7 +61,8 @@ h3{
   	text-align: center;
 }
 
-@media (max-width:640px) {
+
+@media (max-width:100px) {
   .intro {
     background-attachment:initial;
   }
@@ -199,7 +199,7 @@ div.caption{
 	height: 10vh;
 }
 
-.row.contact{
+.row.contacter{
 	margin-bottom: 50px;
 }
 
