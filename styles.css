@@ -239,3 +239,8 @@ and (max-device-width : 1024px){
 	font-weight: 800;
 }
 
+.fa{
+	color: white;
+	margin-left: 20px;
+	margin-top: 0px;
+}
