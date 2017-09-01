@@ -46,6 +46,13 @@ section{
   }
 }
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+  .intro{
+	background-attachment:initial;
+  }
+}
 
 .content{
 	vertical-align: middle;
@@ -150,6 +157,14 @@ div.caption{
   }
 }
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+  .skills{
+	background-attachment:initial;
+  }
+}
+
 .skills .content{
 	color:black;
 }
@@ -185,6 +200,14 @@ div.caption{
 @media (max-width:640px) {
   .contact {
     background-attachment:initial;
+  }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+  .contact{
+	background-attachment:initial;
   }
 }
 
