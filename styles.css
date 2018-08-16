@@ -32,20 +32,9 @@ section{
 }
 
 .intro{
-/*	background: url("levi-price-35655.jpg") no-repeat center center;
-	background-size: cover;
-	background-position:50% 50%;
-	background-attachment: fixed;*/
 	background: linear-gradient(to right, rgb(20, 136, 204), rgb(43, 50, 178));
   	text-align: center;
 }
-
-
-/*@media (max-width:640px) {
-  .intro {
-    background-attachment:initial;
-  }
-}*/
 
 @media only screen 
 and (min-device-width : 768px) 
@@ -177,34 +166,17 @@ div.caption{
   }
 
 .portfolio{
-	background-color: black;
+	background: linear-gradient(to right, rgb(20, 136, 204), rgb(43, 50, 178));
   	text-align: left;
   	font-size:18px;
 }
 
 .contact{
-/*	background: url("levi-price-35655.jpg") no-repeat center center;
-	background-size: cover;
-	background-position:50% 50%;
-    background-attachment: fixed;*/
     background: linear-gradient(to right, rgb(20, 136, 204), rgb(43, 50, 178));
   	text-align: center;
   	font-size:18px;
 }
 
-/*@media (max-width:640px) {
-  .contact {
-    background-attachment:initial;
-  }
-}
-
-@media (min-device-width : 768px) 
-and (max-device-width : 1024px){
-  .contact{
-	background-attachment:initial;
-  }
-}
-*/
 .nopadding{
 	padding:0;
 	margin: 0;
@@ -243,4 +215,9 @@ and (max-device-width : 1024px){
 	color: white;
 	margin-left: 20px;
 	margin-top: 0px;
+}
+
+.desktopimg{
+	max-height: 200px;
+	max-width: 200px;
 }
