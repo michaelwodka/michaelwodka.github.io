@@ -1,11 +1,15 @@
 <html>
   <head>
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/main.css">
+  	{% include head.html %}
   </head>
   <body>
+  	{% include header.html %}
+
     <main>
       {{ content }}
     </main>
+
+  	{% include footer.html %}
+
   </body>
 </html>
