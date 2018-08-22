@@ -26,7 +26,8 @@ github_username:  michaelwodka
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-slate
+repository: michaelwodka/michaelwodka.github.io
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
