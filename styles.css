@@ -118,10 +118,11 @@ p + p{
 	margin-top: 20px;
 }
 
-div.caption{
+/*div.caption{
 	margin-top: 40px;
 	text-align: center;
-}
+    display:inline-block;
+}*/
 
 .profilecap{
 	font-weight: 800;
@@ -129,6 +130,21 @@ div.caption{
 	margin-left: 20px;
 	margin-top: 0px;
 	color: white;
+}
+
+@media (max-width:640px) {
+  div.caption {
+    margin-top: 40px;
+	text-align: center;
+	display: inline-flex;
+  }
+}
+
+@media (min-width:640px) {
+  div.caption {
+    margin-top: 40px;
+	text-align: center;
+  }
 }
 
 .skills{
