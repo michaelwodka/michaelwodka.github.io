@@ -77,6 +77,11 @@ h3{
 	margin-bottom: 75px;
 }
 
+#portfolioRow{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
 .thumbnail{
 	background: transparent;
 	border: none;
@@ -189,14 +194,17 @@ p + p{
 
 #appstoreImage{
 	padding-top: 10px;
+	max-width: 300px;
 }
 
 #googlePlayImage{
 	padding-top: 10px;
+	max-width: 300px;
 }
 
 #webImage {
 	padding-top: 5px;
+	max-width: 300px;
 }
 
 .iconText {
@@ -225,6 +233,10 @@ p + p{
 
 #notopbottom {
 	margin-bottom: 0px;
+	margin-top: 25px;
+}
+
+#notop{
 	margin-top: 25px;
 }
 
